@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+}
+header{
+    color: rgb(247, 246, 245); 
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    padding: 0 150px ;
+    width: auto;
+}
+h1{
+    padding: 30px 0 90px;
+    font-size: 100px;
+    text-align: center;
+
+}
+
+
+
+body{
+    background: #000;
+}
+.textos{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    color: #000;
+    margin: 20px 80px 20px;
+    padding: 80px;
+    border-radius: 20px;
+   
+}
+img{
+    width: 300px;
+    float:right;
+    display: flex;
+    top: 50px;
+    box-shadow:  0 0 10px 0 rgba(0, 0, 0, 1);
+    margin: 10px;
+ 
+    
+}
+.deco{
+    float:right center;
+    
+
+}
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+    }
+    
+    #menu #item{
+        float: left;
+        list-style:none
+    }
+    #menu #item a {
+    background: #57616b ;
+    color: aliceblue;
+    padding: 12px 22px;
+    display: block;
+    font-size: 16px;
+    text-decoration: none ;
+    list-style:none;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    #menu #desple{
+        display: none;
+    
+    
+    }
+    #menu #item a:hover {
+        background: #723737;
+    }
+    #menu #item:hover #desple{
+        display: block;
+    }
+.clear{
+    clear: both;
+}
+footer{
+    color: rgb(247, 240, 233); 
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+h2{
+    font-size: 80px;
+    margin:30px ;
+    color: rgb(218, 204, 204);
+    text-align: center;
+  
+}
+
+
+p{
+    width: 60%;
+    margin: 60px 0 0;
+    background: #57616b ;
+    border-radius: 20px;
+    padding: 20px;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{  
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+iframe{
+    align-items: center;
+    padding:100px;
+}
+.musica{
+align-items: center;
+}
+.can{
+    display: flex;
+    margin:  0 190px 0 150px ;
+    width: auto;
+}
+.cant{
+    display: flex;
+    margin: 0 230px;
+    width: 800px;
+}
+.cann{
+    color:aliceblue ;
+    text-align: center;
+    padding: 20px;
+}
